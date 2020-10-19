@@ -177,12 +177,6 @@ def analizar():
 
     strSecuencia.set(audio)
 
-    #figure = Figure(figsize=(5,3), dpi=100)
-    #figure.add_subplot(111).plot(waveAudio.ts, waveAudio.ys)
-    #canvas = FigureCanvasTkAgg(figure, master=principal)
-    #canvas.draw()
-    #canvas.get_tk_widget().pack()
-
 btnAbrir = Button(principal, text="Abrir archivo wav", command=abrirArchivo)
 btnAbrir.pack()
 
